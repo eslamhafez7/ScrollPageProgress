@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    height: 5000px;
+}
+.scroll-progress {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 0;
+    height: 8px;
+}
